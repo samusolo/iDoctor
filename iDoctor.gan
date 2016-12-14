@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Proyecto iDoctor" company="IS" webLink="http://" view-date="2016-11-14" view-index="0" gantt-divider-location="367" resource-divider-location="347" version="2.7.1" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Proyecto iDoctor" company="IS" webLink="http://" view-date="2016-11-07" view-index="0" gantt-divider-location="367" resource-divider-location="347" version="2.7.1" locale="es">
     <description><![CDATA[Proyecto de la asignatura IS]]></description>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="52" order="0"/>
@@ -9,8 +9,8 @@
         <option id="color.recent"><![CDATA[#000000]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="55" order="0"/>
-        <field id="1" name="Función" width="44" order="1"/>
+        <field id="0" name="Nombre" width="51" order="0"/>
+        <field id="1" name="Función" width="48" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -68,11 +68,11 @@
         <allocation task-id="0" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="8" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="30" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="30" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="8" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="10" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="29" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="8" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
@@ -99,7 +99,18 @@
         <displaycolumn property-id="tpd13" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
     </taskdisplaycolumns>
-    <previous/>
+    <previous>
+        <previous-tasks name="">
+            <previous-task id="18" start="2016-11-07" duration="18" meeting="false" super="true"/>
+            <previous-task id="4" start="2016-11-07" duration="10" meeting="false" super="false"/>
+            <previous-task id="8" start="2016-11-21" duration="7" meeting="false" super="false"/>
+            <previous-task id="10" start="2016-11-21" duration="3" meeting="false" super="false"/>
+            <previous-task id="0" start="2016-11-30" duration="1" meeting="false" super="false"/>
+            <previous-task id="21" start="2016-12-01" duration="14" meeting="false" super="true"/>
+            <previous-task id="29" start="2016-12-01" duration="14" meeting="false" super="false"/>
+            <previous-task id="30" start="2016-12-01" duration="14" meeting="false" super="false"/>
+        </previous-tasks>
+    </previous>
     <roles roleset-name="Default"/>
     <roles roleset-name="SoftwareDevelopment"/>
 </project>
