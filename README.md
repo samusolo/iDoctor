@@ -1,8 +1,3 @@
-# iDoctor
-
-Repositorio de iDoctor
-by LUL why you so secure bruh?
-
 #Chat
 
 La aplicación de Gitter está disponible para Windows, Mac, Android, Linux, ...
